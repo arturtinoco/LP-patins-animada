@@ -47,3 +47,9 @@ header.top {
 
     }
 }
+
+@media (width < 80em) {
+    & header.top {
+        padding: 1.25rem 1.5rem;
+    }
+}

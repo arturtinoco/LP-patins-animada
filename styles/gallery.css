@@ -109,3 +109,49 @@ section.gallery {
         transform:  translateY(100%);
     }
 }
+
+@media (width < 80em) {
+    & section.gallery {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+
+        & header {
+            & span {
+                font-size: .75rem;
+            }
+
+            & h2 {
+                font-size: 1.5rem;
+                margin-top: .5rem;
+            }
+        }
+
+        & .content {
+            grid-template-areas: 
+            "A"
+            "B"
+            "C"
+            "D";
+            gap: 1.5rem;
+        }
+    
+        & figure {
+            &[data-delay] {
+                animation-range: 40px 296px;
+            }
+
+            & > img {
+                height: 16rem;
+            }
+        }
+
+        & figcaption {
+            & span {
+                line-height: 1.6;
+            }
+        }
+    }
+
+    
+}
