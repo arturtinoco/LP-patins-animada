@@ -3,7 +3,7 @@ Projeto desenvolvido durante a Formação Full-Stack promovida pela Rocketseat.
 ___
 ## 🚀 Layout direcionado para Landing Page de aplicativo
   
-![Gif de demonstração do Formulário de Convite](.gitconfig/lp-patins-animada-preview.gif)
+![Gif de demonstração da Landing Page Snitap](.gitconfig/lp-patins-animada-preview.gif)
   
 ___
 ### 🤖 Tecnologias e Recursos  
